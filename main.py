@@ -35,8 +35,8 @@ def upload_to_clickscan(data: UploadRequest):
     }
 
     headers = {
-        "Authorization": "Bearer YOUR_BEARER_TOKEN_HERE",
-        "X-Tenant-ID": "YOUR_TENANT_ID_HERE"
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoxLCJlbWFpbCI6InN1cGVyYWRtaW5AdGVycmFsb2dpYy5jb20iLCJ1c2VybmFtZSI6InN1cGVyYWRtaW4iLCJyb2xlcyI6WyJBRE1JTiIsIlNBIl19LCJpYXQiOjE3NTE5NzY3NTYsImV4cCI6MTc1MjAxOTk1Nn0.4p4rqoSHBjvpUDR5YmyzsPN2m956iNgitJRL6u8IZpc",
+        "X-Tenant-ID": "5yr3IUvCNC"
     }
 
     res = requests.post(
